@@ -1,10 +1,13 @@
 1. **Prometheus Targets:** 
 ![prometheu_targets.PNG](images/prometheu_targets.PNG)
 
-2. **Graphana DataSource:** 
+2. **Alert Manager:** 
+![alert_manager.PNG](images/alert_manager.PNG)
+
+3. **Graphana DataSource:** 
 ![grafana_data_source.PNG](images/grafana_data_source.PNG)  
 
-3. **Graphana DashBoard:** 
+4. **Graphana DashBoard:** 
 ![grafana_dashboard.PNG](images/grafana_dashboard.PNG) 
 
 

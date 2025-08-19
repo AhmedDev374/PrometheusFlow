@@ -27,33 +27,6 @@ services:
     networks:
       - monitor
 
-  cadvisor:
-    image: gcr.io/cadvisor/cadvisor:v0.47.0
-    ports:
-      - "8080:8080"
-    volumes:
-      - /:/rootfs:ro
-      - /var/run:/var/run:ro
-      - /sys:/sys:ro
-      - /var/lib/docker/:/var/lib/docker:ro
-      - /var/run/docker.sock:/var/run/docker.sock:ro
-    privileged: true  # Add this line
-    networks:
-      - monitor
-
-
-  mysql:
-    image: mysql:8.0
-    environment:
-      MYSQL_ROOT_PASSWORD: rootpass
-      MYSQL_DATABASE: mydb
-    volumes:
-      - ./exporters/mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
-    ports:
-      - "3306:3306"
-    networks:
-      - monitor
-
   grafana:
     image: grafana/grafana:11.1.0
     volumes:

@@ -26,10 +26,9 @@
 - [Prerequisites](#prerequisites)  
 - [Installation & Setup](#installation--setup)  
 - [Usage](#usage)  
-- [Environment Variables](#environment-variables)  
+- [Configuration & Environment Variables](#configuration--environment-variables)  
 - [Project Structure](#project-structure)
 - [Troubleshooting](#Troubleshooting)  
-- [Testing](#testing) *(if applicable)*  
 - [Contact](#contact)  
 - [License](#license)
 

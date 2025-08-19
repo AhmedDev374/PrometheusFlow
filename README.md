@@ -1,15 +1,12 @@
-1. **First:** Login to DB
-![admin_login.PNG](images/admin_login.PNG)
+1. **Prometheus Targets:** 
+![prometheu_targets.PNG](images/prometheu_targets.PNG)
 
-2. **Second:** Go to DB and Create A Table (users), add a  Field to the "users" Table
-![db_users.PNG](images/db_users.PNG)
+2. **Graphana DataSource:** 
+![grafana_data_source.PNG](images/grafana_data_source.PNG)  
 
-3. **Forth:** Add Data to the User
-![db_users_data.PNG](images/db_users_data.PNG)
+3. **Graphana DashBoard:** 
+![grafana_dashboard.PNG](images/grafana_dashboard.PNG) 
 
-4. **last:** Data will show on frontEnd & BackEnd
-![back_end.PNG](images/back_end.PNG)
-![fontend.PNG](images/fontend.PNG)
 
 ---
 
